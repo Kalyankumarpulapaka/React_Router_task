@@ -1,0 +1,103 @@
+.container{
+ margin-top: 20px;
+
+}
+
+
+.phead a {
+
+  color: rgb(13,186,75);
+  font-size: small;
+ 
+
+}
+.phead {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 4px solid rgba(128, 128, 128, 0.804);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  }
+  .btn-check {
+    display: none;
+
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+   
+    color: #007bff;
+    border: transparent;
+   
+  
+  }
+  .btn a{
+   
+     
+     
+    
+  }
+
+  .card-container {
+    display: flex;
+    gap: 18px; /* Adjust the gap between cards as necessary */
+    justify-content: center; /* Adjust alignment as necessary */
+    margin-top: 4%;
+   
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.471);
+  border-radius: 8px;
+  overflow: hidden; 
+
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover; /* This ensures the image covers the area without distortion */
+  }
+
+/* Styling for the link with custom underline */
+/* Base styling for the link with custom underline */
+.custom-underline {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.custom-underline::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 4px; /* Adjust the height as needed */
+  background-color: rgba(62, 173, 7, 0.988); /* Change the color as needed */
+  left: 0;
+  bottom: -35px; /* Adjust the position as needed */
+  transition: width 0.3s; /* Add transition for a smooth effect */
+}
+
+.custom-underline.active::after {
+  width: 120%; /* Full width when active */
+}
+
+
+
+
+
+
+
+  
+ 
+
+
+
